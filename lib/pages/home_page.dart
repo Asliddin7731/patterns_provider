@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
         centerTitle: true,
-        title: const Text('SetState'),
+        title: const Text('Provider'),
       ),
       body: ChangeNotifierProvider(
         create: (context) => viewModel,
